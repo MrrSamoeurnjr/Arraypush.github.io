@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1.header{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 span{
+    color: greenyellow;
+}
+.form{
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+label{
+    width: 100%;
+    float: left;
+}
+input{
+    width: 100%;
+    float: left;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid wheat;
+    outline: none;
+    border-radius: 8px;
+}
+input:focus{
+    border-color: red;
+}
+.btn-post{
+    float: right;
+    padding: 7px 20px;
+    background-color:grey;
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn-post:hover{
+    opacity: 0.8;
+}
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top:8px;
+}
+table tr th{
+    padding: 7px;
+    background-color: gainsboro;
+    border: 1px solid white;
+    font-size: 13px;
+}
+table tr td{
+    padding: 7px;
+    border: 1px solid white;
+    background-color: white;
+    font-size:13px;
+}
+table tr:nth-child(odd) td{
+    background-color: whitesmoke;
+}
+.btn-edit:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
